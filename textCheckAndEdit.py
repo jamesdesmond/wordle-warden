@@ -29,11 +29,10 @@ def toFiveCharLine( text ):
 
 
 def isFiveLetters ( text ) : 
-    isGood = True
     checkList = str(text).split('\n')
 
     for line in checkList:
         if len(line) > 5 :
-            isGood = False
-    return isGood
+            return false
+    return true
         
